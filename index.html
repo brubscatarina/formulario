@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bruna Aprendendo Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário Simples</h1>
+    <form action="" method=""> <!--Como é um formulário simples, não serão enviados a nenhum lugar.-->
+        <table>
+
+            <tr>
+                <th><label for="Nome">Nome:</label></th> 
+                <td><input type="text" name="Nome" id="Nome"></td> <!--id sempre exclusivo.-->
+            </tr>
+            <tr>
+                <th><label for="E-mail">E-mail:</label></th>
+                <td><input type="email" name="email" id="email"</td>
+            </tr>
+            <tr>
+                <th><label for="Mensagem">Digite sua mensagem:</label></th>
+                <td><textarea name="Mensagem" rows="5" cols="40">Digite sua mensagem</textarea></td> <!--Rows são linhas e Cols são colunas.-->
+            </tr>
+            <tr>
+                <td></td>
+                <td><button>Enviar</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
